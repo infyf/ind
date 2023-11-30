@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Індивідуальне завдання</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b, #ffcb8a, #ffe387, #c6f89e, #8cf8c6, #7bdff2, #91a7ff, #bb8eff, #ff7eb9);
+            margin: 0;
+            padding: 0;
+            color: #312e2e;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 1px 1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, -1px -1px 0 orange;
+            color: rgb(49, 75, 191);
+            transition: all 1s;
+        }
+
+        h1:hover {
+            text-shadow: 1px 1px 0 yellowgreen, 1px -1px 0 yellowgreen, -1px 1px 0 yellowgreen, -1px -1px 0 yellowgreen;
+        }
+
+        p {
+            text-shadow: -1px -1px #000, 0 1px 0 #444;
+            color: #222;
+            transition: all 1s;
+        }
+
+        p:hover {
+            text-shadow: -1px -1px #000, 0 1px 0 #444;
+            color: #1A1A1A;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .item {
+            text-align: center;
+            background-color: rgba(133, 255, 249, 0.3);
+            color: #312e2e;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 100%; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+        }
+
+        .item img {
+            width: 100%;
+            max-height: 15rem;
+            border-radius: 10px;
+        }
+
+        @media screen and (min-width: 576px) {
+        
+            .item {
+                width: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Індивідуальне завдання</h1>
+
+    <div class="container">
+        <a href="https://infyf.github.io/LR8/lr9js.html" target="_blank" class="item">
+            <img src="https://bettr.ru/media/k2/items/cache/f0bed76020ad9eed1eeaffe8b2afff2f_XL.jpg" alt="Magic ball">
+            <p>Гра "21"</p>
+        </a>
+
+        <a href="https://infyf.github.io/game_sipmle_js/lr8js.html" target="_blank" class="item">
+            <img src="Screenshot_2.png" alt="Numbers">
+            <p>В кого більше число</p>
+        </a>
+
+        <a href="https://infyf.github.io/lr10_js_simlpe_game/lr10.html" target="_blank" class="item">
+            <img src="https://sian-ua.info/wp-content/uploads/2017/03/index.jpg" alt="карти">
+            <p>Гра "Однорукий бандит"</p>
+        </a>
+
+        <a href="https://infyf.github.io/lr7/lr7js.html" target="_blank" class="item">
+            <img src="https://images.prom.ua/3098828713_w640_h640_plazmennyj-shar-molniya.jpg" alt="куля">
+            <p>Магічна куля</p>
+        </a>
+    </div>
+
+</body>
+
+</html>
